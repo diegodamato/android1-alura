@@ -5,18 +5,18 @@ package br.com.alura.agenda.modelo;
  */
 
 public class Aluno {
-    private long id;
+    private Long id;
     private String nome;
     private String endereco;
     private String telefone;
     private String site;
     private Double nota;
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
